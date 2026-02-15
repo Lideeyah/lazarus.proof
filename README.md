@@ -1,37 +1,129 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LAZARUS // PROOF
+### The Sovereign Identity & Biometric Settlement Layer
 
-## Getting Started
+> **"Human Presence is the New Private Key."**
 
-First, run the development server:
+`Lazarus.proof` is a high-fidelity Proof of Concept (PoC) for a **Biometric Intent Verification System**. It replaces traditional private key signing with a **"Neural Handshake,"** using real-time EEG data to authenticate high-value transactions on the Solana blockchain.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+This repository contains the complete frontend simulation of the **"Real-World Flow,"** designed to demonstrate the seamless transition from a passive state to an active, authorized state using nothing but thought.
+
+---
+
+## ⚡ The "Real-World Flow" Demo
+
+This application simulates a live "Sovereign Gate" experience, adhering to a strict 4-stage state machine:
+
+### 1. The Handshake (Neural Sync)
+*   **Visual:** White, Breathing Orb.
+*   **Action:** User connects device -> Authorizes Stream -> 15s Calibration.
+*   **Feedback:** "BREATHE DEEPLY" -> "FOCUS ON THE ORB" -> "CALIBRATING SENSORS".
+*   **Outcome:** Neural Baseline Established.
+
+### 2. The Ready State (Passive Protection)
+*   **Visual:** Low-Energy Blue Orb (Resting State).
+*   **Text:** "DEVICE CONNECTED. NEURAL LINK ACTIVE."
+*   **Security:** Threshold set (e.g., $500). Transactions below this are auto-signed.
+*   **Status:** System is locked and monitoring.
+
+### 3. The Challenge (High-Value Intent)
+*   **Visual:** Amber Pulse (Warning/Alert).
+*   **Trigger:** Attempting a transaction *above* the threshold (simulated $50,000 "Asset Rebalance").
+*   **Text:** "HIGH-VALUE TRADE DETECTED!"
+*   **Instruction:** "FOCUS NOW TO AUTHORIZE."
+*   **Requirement:** User must hold their focus (simulated by holding the button) to generate a "Concentration Spike."
+
+### 4. The Verification (Bio-Proof)
+*   **Visual:** Cyan Explosion (Success).
+*   **Text:** "INTENT ANCHORED."
+*   **Outcome:** Transaction released to the blockchain.
+*   **Proof:** Digital Receipt generated with "Liveness Checks" and "Neural Hash."
+
+---
+
+## 🛠️ Technology Stack
+
+Built for **Maximum Visual Fidelity** and **Zero-Latency Interactions**:
+
+*   **Framework:** [Next.js 14](https://nextjs.org/) (App Router, Poly-Repo Architecture)
+*   **Styling:** [Tailwind CSS](https://tailwindcss.com/) (Custom "Lazarus" Design System)
+*   **Animation:** [Framer Motion](https://www.framer.com/motion/) (Complex Orchestration, Layout Animations)
+*   **State Management:** [Zustand](https://github.com/pmndrs/zustand) (Global Neural Store)
+*   **Icons:** [Lucide React](https://lucide.dev/) (Consistent Iconography)
+*   **Biometrics (Simulated):** Custom `NeuralStream` service mocking WebHID/EEG data streams.
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+*   Node.js 18+
+*   npm / yarn / pnpm / bun
+
+### Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/lazarus-proof.git
+    cd lazarus-proof
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    # or
+    bun install
+    ```
+
+3.  **Run the Development Server:**
+    ```bash
+    npm run dev
+    # or
+    bun dev
+    ```
+
+4.  **Open the App:**
+    Navigate to [http://localhost:3000](http://localhost:3000).
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+├── app/
+│   ├── page.tsx            # Main Demo Controller (The "Brain")
+│   ├── layout.tsx          # Global Layout & Fonts
+│   └── globals.css         # Tailwind & Custom Utilities
+├── components/
+│   ├── neural/             # The Orb & Visualization Logic
+│   │   ├── NeuralCore.tsx  # Central State Visualizer
+│   │   ├── NeuralOrb.tsx   # 3D/Canvas Rendering
+│   │   └── Waveform.tsx    # FFT Data Visualization
+│   ├── dashboard/          # UI Panels & Overlays
+│   │   ├── OrbitalHeader.tsx
+│   │   ├── SecurityVault.tsx
+│   │   ├── HistoryPanel.tsx
+│   │   └── ReceiptView.tsx
+│   └── onboarding/         # Setup Flow
+├── lib/
+│   ├── flow.ts             # State Machine Logic
+│   └── types.ts            # TypeScript Definitions
+└── store/
+    └── neural-store.ts     # Global State (Thresholds, User Data)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔐 Security & Privacy (Concept)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+*   **Zero-Knowledge Proofs:** Raw brainwave data *never* leaves the local device. Only the cryptographic proof of "Intent" is broadcasted.
+*   **Sovereign Storage:** All sensitive biometric templates are stored in the user's encrypted local vault (simulated via LocalStorage/State).
+*   **Circuit Breaker:** The "Bio-Seal" acts as a final, immutable check before any high-value transaction can be signed.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+### Credit
+*   **Concept & Design:** [Your Name / Team Name]
+*   **Engineering:** "Antigravity" Agentic Assistant
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# lazarus.proof
+> *Verify the human, not the identity.*
